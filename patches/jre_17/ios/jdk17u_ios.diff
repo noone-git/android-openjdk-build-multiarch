@@ -187,7 +187,7 @@ index 4b1c14a11..b39ea914c 100644
 +ifeq ($(call isTargetOs, macosx_NOTIOS), true)
    # exclude all X11 on Mac.
    EXCLUDES += \
-       sun/awt/X11 \
+       sun/awt/screencast \
 @@ -80,6 +80,12 @@ ifeq ($(call isTargetOs, macosx), true)
        $(wildcard $(TOPDIR)/src/java.desktop/unix/classes/sun/font/*.java) \
        #
