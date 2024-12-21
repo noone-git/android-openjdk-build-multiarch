@@ -10,7 +10,7 @@ fi
 
 # Set custom java version as the defautl jdk depending on the target version
 # Local build with docker only
-if [[ -z "$CI" ]]
+#if [[ -z "$CI" ]]
 then
   update-java-alternatives -s java-1.${TARGET_VERSION}*
 fi
